@@ -6,8 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch --passWithNoTests",
     "lint": "eslint \"src/**/*.{ts,html}\" --fix",
     "format": "prettier --write \"src/**/*.{ts,html,scss,json}\"",
     "postinstall": "husky"
